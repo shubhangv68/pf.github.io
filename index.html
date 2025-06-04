@@ -323,10 +323,7 @@
 
 </section><!-- /Resume Section -->
 
-
-    <!-- Portfolio Section -->
 <section id="portfolio" class="portfolio section light-background">
-  <!-- Section Title -->
   <div class="container section-title" data-aos="fade-up">
     <h2>Projects</h2>
     <p>A collection of projects spanning system design, AI applications, and full-stack development.
@@ -335,77 +332,138 @@
   </div>
 
   <div class="container">
-    <div class="isotope-layout" data-default-filter="*">
-      <ul class="portfolio-filters isotope-filters" data-aos="fade-up" data-aos-delay="100">
-        <li data-filter="*" class="filter-active">All</li>
-        <li data-filter=".filter-app">AI & Intelligent Tools</li>
-        <li data-filter=".filter-product">Backend & Systems Engineering</li>
-        <li data-filter=".filter-branding">Full-Stack Web Applications</li>
-        <li data-filter=".filter-books">Algorithmic & Logic-Based</li>
-      </ul>
+    <ul id="portfolio-flters" class="portfolio-filters d-flex justify-content-center" data-aos="fade-up" data-aos-delay="100">
+      <li data-filter="*" class="filter-active">All</li>
+      <li data-filter=".filter-app">AI & Intelligent Tools</li>
+      <li data-filter=".filter-product">Backend & Systems Engineering</li>
+      <li data-filter=".filter-branding">Full-Stack Web Applications</li>
+      <li data-filter=".filter-books">Algorithmic & Logic-Based</li>
+    </ul>
 
-      <div class="row gy-4 isotope-container" data-aos="fade-up" data-aos-delay="200">
-
-        <!-- AI & Intelligent Tools -->
-        <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-          <div style="border: 1px solid #e0e0e0; border-radius: 0.5rem; background: #fff; box-shadow: 0 2px 6px rgba(0,0,0,0.1); padding: 1.5rem; display: flex; flex-direction: column; height: 100%;">
-            <h4>AI-Powered Research Paper Q&A Assistant</h4>
-            <p style="flex-grow: 1;">Built a RAG pipeline using LangChain, FAISS, and OpenAI to answer natural language queries from academic PDFs with precise context grounding.</p>
-            <a href="https://github.com/shubhangv68" class="btn btn-dark mt-3 mx-auto">Check the Source</a>
-          </div>
+    <div class="row gy-4 portfolio-container" data-aos="fade-up" data-aos-delay="200">
+      <!-- Project 1–15 -->
+      <div class="col-lg-4 col-md-6 portfolio-item filter-app d-flex">
+        <div class="h-100" style="border:1px solid #e0e0e0;border-radius:8px;background:#fff;box-shadow:0 2px 6px rgba(0,0,0,0.1);padding:1.5rem;display:flex;flex-direction:column;">
+          <h4>AI-Powered Research Paper Q&A Assistant</h4>
+          <p style="flex-grow:1;">Built a RAG pipeline using LangChain, FAISS, and OpenAI to answer academic queries from PDFs.</p>
+          <a href="https://github.com/shubhangv68" class="btn btn-dark mt-3 mx-auto">Check the Source</a>
         </div>
+      </div>
 
-        <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-          <div style="border: 1px solid #e0e0e0; border-radius: 0.5rem; background: #fff; box-shadow: 0 2px 6px rgba(0,0,0,0.1); padding: 1.5rem; display: flex; flex-direction: column; height: 100%;">
-            <h4>Product Review Recommender</h4>
-            <p style="flex-grow: 1;">Built a BERT-based system to recommend alternatives from 60M user reviews, mitigating cold-start issues using embedding similarity.</p>
-            <a href="https://github.com/shubhangv68" class="btn btn-dark mt-3 mx-auto">Check the Source</a>
-          </div>
+      <div class="col-lg-4 col-md-6 portfolio-item filter-app d-flex">
+        <div class="h-100" style="border:1px solid #e0e0e0;border-radius:8px;background:#fff;box-shadow:0 2px 6px rgba(0,0,0,0.1);padding:1.5rem;display:flex;flex-direction:column;">
+          <h4>Product Review Recommender</h4>
+          <p style="flex-grow:1;">Built a BERT-based system to recommend alternatives using 60M user reviews and metadata.</p>
+          <a href="https://github.com/shubhangv68" class="btn btn-dark mt-3 mx-auto">Check the Source</a>
         </div>
+      </div>
 
-        <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-          <div style="border: 1px solid #e0e0e0; border-radius: 0.5rem; background: #fff; box-shadow: 0 2px 6px rgba(0,0,0,0.1); padding: 1.5rem; display: flex; flex-direction: column; height: 100%;">
-            <h4>Job Description Matcher & Resume Enhancer</h4>
-            <p style="flex-grow: 1;">Used NLP to align resumes with job descriptions based on semantic scoring and keyword highlighting for application targeting.</p>
-            <a href="https://github.com/shubhangv68" class="btn btn-dark mt-3 mx-auto">Check the Source</a>
-          </div>
+      <div class="col-lg-4 col-md-6 portfolio-item filter-app d-flex">
+        <div class="h-100" style="border:1px solid #e0e0e0;border-radius:8px;background:#fff;box-shadow:0 2px 6px rgba(0,0,0,0.1);padding:1.5rem;display:flex;flex-direction:column;">
+          <h4>Job Description Matcher & Resume Enhancer</h4>
+          <p style="flex-grow:1;">Designed an NLP-based tool that scores resume alignment with job descriptions using semantic similarity.</p>
+          <a href="https://github.com/shubhangv68" class="btn btn-dark mt-3 mx-auto">Check the Source</a>
         </div>
+      </div>
 
-        <!-- Row 2: More filter-app -->
-        <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-          <div style="border: 1px solid #e0e0e0; border-radius: 0.5rem; background: #fff; box-shadow: 0 2px 6px rgba(0,0,0,0.1); padding: 1.5rem; display: flex; flex-direction: column; height: 100%;">
-            <h4>LLM-Powered Note Summarizer</h4>
-            <p style="flex-grow: 1;">Fine-tuned LLMs to extract key insights and generate structured summaries from transcripts or class notes.</p>
-            <a href="https://github.com/shubhangv68" class="btn btn-dark mt-3 mx-auto">Check the Source</a>
-          </div>
+      <div class="col-lg-4 col-md-6 portfolio-item filter-app d-flex">
+        <div class="h-100" style="border:1px solid #e0e0e0;border-radius:8px;background:#fff;box-shadow:0 2px 6px rgba(0,0,0,0.1);padding:1.5rem;display:flex;flex-direction:column;">
+          <h4>LLM-Powered Note Summarizer</h4>
+          <p style="flex-grow:1;">Fine-tuned large language models to extract key insights and generate summaries from transcripts.</p>
+          <a href="https://github.com/shubhangv68" class="btn btn-dark mt-3 mx-auto">Check the Source</a>
         </div>
+      </div>
 
-        <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-          <div style="border: 1px solid #e0e0e0; border-radius: 0.5rem; background: #fff; box-shadow: 0 2px 6px rgba(0,0,0,0.1); padding: 1.5rem; display: flex; flex-direction: column; height: 100%;">
-            <h4>FAQ Generator from Manuals</h4>
-            <p style="flex-grow: 1;">Converted dense technical documentation into concise FAQs using question generation and summarization models.</p>
-            <a href="https://github.com/shubhangv68" class="btn btn-dark mt-3 mx-auto">Check the Source</a>
-          </div>
+      <div class="col-lg-4 col-md-6 portfolio-item filter-app d-flex">
+        <div class="h-100" style="border:1px solid #e0e0e0;border-radius:8px;background:#fff;box-shadow:0 2px 6px rgba(0,0,0,0.1);padding:1.5rem;display:flex;flex-direction:column;">
+          <h4>FAQ Generator from Manuals</h4>
+          <p style="flex-grow:1;">Converted dense manuals into FAQs using abstractive and extractive summarization techniques.</p>
+          <a href="https://github.com/shubhangv68" class="btn btn-dark mt-3 mx-auto">Check the Source</a>
         </div>
+      </div>
 
-        <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-          <div style="border: 1px solid #e0e0e0; border-radius: 0.5rem; background: #fff; box-shadow: 0 2px 6px rgba(0,0,0,0.1); padding: 1.5rem; display: flex; flex-direction: column; height: 100%;">
-            <h4>Mental Health Chatbot (Prototype)</h4>
-            <p style="flex-grow: 1;">Prototyped a mental wellness chatbot with empathetic responses and mood-tracking using intent detection.</p>
-            <a href="https://github.com/shubhangv68" class="btn btn-dark mt-3 mx-auto">Check the Source</a>
-          </div>
+      <div class="col-lg-4 col-md-6 portfolio-item filter-app d-flex">
+        <div class="h-100" style="border:1px solid #e0e0e0;border-radius:8px;background:#fff;box-shadow:0 2px 6px rgba(0,0,0,0.1);padding:1.5rem;display:flex;flex-direction:column;">
+          <h4>Mental Health Chatbot (Prototype)</h4>
+          <p style="flex-grow:1;">Built a conversational AI prototype for check-ins with empathetic response generation and mood tracking.</p>
+          <a href="https://github.com/shubhangv68" class="btn btn-dark mt-3 mx-auto">Check the Source</a>
         </div>
+      </div>
 
-        <!-- Repeat same structure with proper category classes for remaining 9 projects -->
-        <!-- Use filter-product, filter-branding, filter-books etc. where applicable -->
+      <div class="col-lg-4 col-md-6 portfolio-item filter-app d-flex">
+        <div class="h-100" style="border:1px solid #e0e0e0;border-radius:8px;background:#fff;box-shadow:0 2px 6px rgba(0,0,0,0.1);padding:1.5rem;display:flex;flex-direction:column;">
+          <h4>Recipe Assistant (Voice + Text)</h4>
+          <p style="flex-grow:1;">Built a voice-activated recipe assistant using speech recognition and NLP-driven flow control.</p>
+          <a href="https://github.com/shubhangv68" class="btn btn-dark mt-3 mx-auto">Check the Source</a>
+        </div>
+      </div>
 
+      <div class="col-lg-4 col-md-6 portfolio-item filter-product d-flex">
+        <div class="h-100" style="border:1px solid #e0e0e0;border-radius:8px;background:#fff;box-shadow:0 2px 6px rgba(0,0,0,0.1);padding:1.5rem;display:flex;flex-direction:column;">
+          <h4>Kafka-Powered Monitoring Dashboard</h4>
+          <p style="flex-grow:1;">Implemented a real-time dashboard for server metrics with Kafka, PostgreSQL, and D3.js.</p>
+          <a href="https://github.com/shubhangv68" class="btn btn-dark mt-3 mx-auto">Check the Source</a>
+        </div>
+      </div>
+
+      <div class="col-lg-4 col-md-6 portfolio-item filter-product d-flex">
+        <div class="h-100" style="border:1px solid #e0e0e0;border-radius:8px;background:#fff;box-shadow:0 2px 6px rgba(0,0,0,0.1);padding:1.5rem;display:flex;flex-direction:column;">
+          <h4>Smart Attendance Tracker (IoT + Firebase)</h4>
+          <p style="flex-grow:1;">Integrated RFID + Firebase to automate classroom presence logging with QR fallback.</p>
+          <a href="https://github.com/shubhangv68" class="btn btn-dark mt-3 mx-auto">Check the Source</a>
+        </div>
+      </div>
+
+      <div class="col-lg-4 col-md-6 portfolio-item filter-product d-flex">
+        <div class="h-100" style="border:1px solid #e0e0e0;border-radius:8px;background:#fff;box-shadow:0 2px 6px rgba(0,0,0,0.1);padding:1.5rem;display:flex;flex-direction:column;">
+          <h4>E-Commerce Backend Microservices</h4>
+          <p style="flex-grow:1;">Architected Node.js microservices with Redis, stateless APIs, and caching for cart/order/payment flows.</p>
+          <a href="https://github.com/shubhangv68" class="btn btn-dark mt-3 mx-auto">Check the Source</a>
+        </div>
+      </div>
+
+      <div class="col-lg-4 col-md-6 portfolio-item filter-product d-flex">
+        <div class="h-100" style="border:1px solid #e0e0e0;border-radius:8px;background:#fff;box-shadow:0 2px 6px rgba(0,0,0,0.1);padding:1.5rem;display:flex;flex-direction:column;">
+          <h4>Patient Record Management System</h4>
+          <p style="flex-grow:1;">Built a CRUD backend for patient data with RBAC, logging, and appointment management.</p>
+          <a href="https://github.com/shubhangv68" class="btn btn-dark mt-3 mx-auto">Check the Source</a>
+        </div>
+      </div>
+
+      <div class="col-lg-4 col-md-6 portfolio-item filter-branding d-flex">
+        <div class="h-100" style="border:1px solid #e0e0e0;border-radius:8px;background:#fff;box-shadow:0 2px 6px rgba(0,0,0,0.1);padding:1.5rem;display:flex;flex-direction:column;">
+          <h4>Live Appointment Scheduler</h4>
+          <p style="flex-grow:1;">Built a Calendly-like scheduler with MERN stack, Google Calendar APIs, and SendGrid integration.</p>
+          <a href="https://github.com/shubhangv68" class="btn btn-dark mt-3 mx-auto">Check the Source</a>
+        </div>
+      </div>
+
+      <div class="col-lg-4 col-md-6 portfolio-item filter-branding d-flex">
+        <div class="h-100" style="border:1px solid #e0e0e0;border-radius:8px;background:#fff;box-shadow:0 2px 6px rgba(0,0,0,0.1);padding:1.5rem;display:flex;flex-direction:column;">
+          <h4>Event Finder & Ticketing Site</h4>
+          <p style="flex-grow:1;">Created an event platform with Stripe mock integration and location-aware discovery features.</p>
+          <a href="https://github.com/shubhangv68" class="btn btn-dark mt-3 mx-auto">Check the Source</a>
+        </div>
+      </div>
+
+      <div class="col-lg-4 col-md-6 portfolio-item filter-branding d-flex">
+        <div class="h-100" style="border:1px solid #e0e0e0;border-radius:8px;background:#fff;box-shadow:0 2px 6px rgba(0,0,0,0.1);padding:1.5rem;display:flex;flex-direction:column;">
+          <h4>Personal Expense Visualizer</h4>
+          <p style="flex-grow:1;">Visualized spending data using Firebase and Chart.js for budgets, summaries, and trends.</p>
+          <a href="https://github.com/shubhangv68" class="btn btn-dark mt-3 mx-auto">Check the Source</a>
+        </div>
+      </div>
+
+      <div class="col-lg-4 col-md-6 portfolio-item filter-books d-flex">
+        <div class="h-100" style="border:1px solid #e0e0e0;border-radius:8px;background:#fff;box-shadow:0 2px 6px rgba(0,0,0,0.1);padding:1.5rem;display:flex;flex-direction:column;">
+          <h4>Logic Puzzle Solver – Nurikabe</h4>
+          <p style="flex-grow:1;">Built a solver using backtracking, A* search, and constraint heuristics for Nurikabe puzzles.</p>
+          <a href="https://github.com/shubhangv68" class="btn btn-dark mt-3 mx-auto">Check the Source</a>
+        </div>
       </div>
     </div>
   </div>
 </section>
-
-
-    
 
     <!-- Contact Section -->
     <section id="contact" class="contact section">
@@ -542,6 +600,27 @@
     }
   });
 </script>
+
+<script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.min.js"></script>
+<script>
+  document.addEventListener('DOMContentLoaded', () => {
+    const iso = new Isotope('.portfolio-container', {
+      itemSelector: '.portfolio-item',
+      layoutMode: 'fitRows'
+    });
+
+    const filters = document.querySelectorAll('#portfolio-flters li');
+    filters.forEach(btn => {
+      btn.addEventListener('click', () => {
+        filters.forEach(el => el.classList.remove('filter-active'));
+        btn.classList.add('filter-active');
+        const filterValue = btn.getAttribute('data-filter');
+        iso.arrange({ filter: filterValue });
+      });
+    });
+  });
+</script>
+
 
 </body>
 
