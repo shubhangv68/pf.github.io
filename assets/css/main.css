@@ -1275,3 +1275,15 @@ section,
 .starter-section {
   /* Add your styles here */
 }
+
+/* DEBUG PADDING */
+.section {
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+.container {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
