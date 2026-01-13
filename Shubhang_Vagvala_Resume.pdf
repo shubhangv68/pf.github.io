@@ -1,0 +1,213 @@
+%PDF-1.4
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Kids [3 0 R] /Count 1 >>
+endobj
+3 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 4 0 R >> >> /Contents 5 0 R >>
+endobj
+4 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica >>
+endobj
+5 0 obj
+<< /Length 5623 >>
+stream
+BT
+/F1 11 Tf
+14 TL
+40 760 Td
+(SHUBHANG VAGVALA) Tj
+T*
+(San Francisco Bay Area, California | \(413\) 362-0915 | shubhangvagvala68@gmail.com) Tj
+T*
+(LinkedIn: linkedin.com/in/sv68 | GitHub: github.com/shubhangv68 | Portfolio:) Tj
+T*
+(shubhangv68.github.io/pf.github.io/) Tj
+T*
+() Tj
+T*
+(Summary) Tj
+T*
+(U.S. Citizen – Authorized to work in the U.S. without sponsorship.) Tj
+T*
+(Software engineer with experience building and operating backend services and data-intensive) Tj
+T*
+(applications at scale.) Tj
+T*
+(Worked across production systems involving inventory, pricing, and search, with a focus on) Tj
+T*
+(correctness, performance,) Tj
+T*
+(and operational reliability. Comfortable designing backend workflows, asynchronous processing, and) Tj
+T*
+(large-scale data) Tj
+T*
+(handling, with exposure to performance evaluation and optimization in complex software systems.) Tj
+T*
+() Tj
+T*
+(Experience) Tj
+T*
+(MediBuddy | Software Engineer | Bengaluru, India | Jun 2022 – Dec 2023) Tj
+T*
+(- Improved address accuracy for fulfillment by building a geo-normalized, map-backed model) Tj
+T*
+(using Java, Spring Boot,) Tj
+T*
+(  Google Maps APIs, MySQL and Redis, increasing first-attempt success by 20% and reducing support) Tj
+T*
+(tickets by 25%.) Tj
+T*
+(- Optimized Elasticsearch inverted-index queries to surface substitutes for unavailable items;) Tj
+T*
+(instrumented discovery) Tj
+T*
+(  events into an ML-ready pipeline with 99%+ T+1 availability, reducing search drop-offs by 15%.) Tj
+T*
+(- Strengthened platform reliability by enforcing timeout budgets, retry backoff and idempotency) Tj
+T*
+(with async offloading) Tj
+T*
+(  and caching; reduced peak-time API failures by 25% and cut production incidents by 15% across the) Tj
+T*
+(core platform.) Tj
+T*
+(- Rebuilt the order management platform to unify Medicines delivery, Lab collection and in-) Tj
+T*
+(center bookings by designing) Tj
+T*
+(  a canonical order-state machine and backend aggregation with cursor-based pagination; enabled) Tj
+T*
+(status-driven React) Tj
+T*
+(  UI, cut p95 latency by 90%, improved vendor sync to 98%, and reduced cancellations and support) Tj
+T*
+(load by 25%.) Tj
+T*
+() Tj
+T*
+(Swiggy | Software Engineer Intern | Bengaluru, India | Jun 2021 – May 2022) Tj
+T*
+(- Validated the Inventory Master Service after major changes by writing unit and integration) Tj
+T*
+(tests for Kafka consumers,) Tj
+T*
+(  gRPC endpoints, and HTTP APIs using an in-house Go framework; fixed issues and improved code) Tj
+T*
+(coverage by 15%.) Tj
+T*
+(- Supported on-call engineers during year-end festive peak traffic by monitoring inventory and) Tj
+T*
+(pricing systems, reviewing) Tj
+T*
+(  dashboards and logs, and assisting with operational checks to ensure smooth handling of high order) Tj
+T*
+(volumes.) Tj
+T*
+(- Built a scheduled nightly ETL cron job in Python to refresh inventory-driven pricing data) Tj
+T*
+(across stores nationwide,) Tj
+T*
+(  processing millions of records per run using CDC replicas, Databricks, Hive, and Kafka; improved) Tj
+T*
+(pricing correctness) Tj
+T*
+(  and reduced price-escalation incidents by 10% on a platform with 13M+ DAU.) Tj
+T*
+(- Built Grafana dashboards for services and pipelines I worked on, creating panels for API) Tj
+T*
+(request volume and latency,) Tj
+T*
+(  error rates, producer/consumer health, and batch job execution metrics to improve observability) Tj
+T*
+(and support monitoring.) Tj
+T*
+() Tj
+T*
+(Education) Tj
+T*
+(University of Massachusetts Amherst | M.S. in Computer Science | Feb 2024 – May 2025 | GPA: 3.97) Tj
+T*
+(Coursework: Distributed Operating Systems, Software Engineering, Artificial Intelligence, Systems in) Tj
+T*
+(Data Science) Tj
+T*
+(Birla Institute of Technology and Science Pilani | B.E. in Electronics and Communication Engineering) Tj
+T*
+(Aug 2018 – May 2022 | GPA: 3.61) Tj
+T*
+(Coursework: Object-Oriented Programming, Data Structures and Algorithms, Microprocessors,) Tj
+T*
+(Computational Logic) Tj
+T*
+() Tj
+T*
+(Technical Skills) Tj
+T*
+(Programming Languages: Java, Python, Go, TypeScript, JavaScript, SQL, Bash.) Tj
+T*
+(Backend Development: Spring Boot, REST APIs, gRPC, GraphQL, Node.js, Express.js.) Tj
+T*
+(Frontend Development: React, Next.js, Redux, Axios, HTML/CSS, Swagger/OpenAPI, JWT.) Tj
+T*
+(Databases and Caching: PostgreSQL, MySQL, MongoDB, Redis, DynamoDB.) Tj
+T*
+(Data Engineering: ETL pipelines, Apache Kafka, Apache Spark, Databricks, Apache Hive.) Tj
+T*
+(DevOps & Cloud: Docker, Git, GitHub Actions, Jenkins, Maven, Gradle, EC2, S3, Lambda, IAM,) Tj
+T*
+(CloudWatch, CI/CD.) Tj
+T*
+(Testing and Automation: JUnit, Mockito, Jest, React Testing Library, Playwright.) Tj
+T*
+(Practices & Miscellaneous: Agile/Scrum, SDLC, Grafana, Kibana.) Tj
+T*
+() Tj
+T*
+(Projects) Tj
+T*
+(Optimizing Streaming Data Processing with Apache Flink) Tj
+T*
+(- Designed and evaluated a work-stealing scheduler for distributed stream processing in Apache) Tj
+T*
+(Flink to address load) Tj
+T*
+(  imbalance and data skew; processed 61M+ NYC For-Hire Vehicle events, implemented dynamic task) Tj
+T*
+(redistribution, and) Tj
+T*
+(  benchmarked against Flink’s default scheduler with gains in runtime, throughput, and CPU) Tj
+T*
+(efficiency.) Tj
+T*
+(College Alumni Networking and Mentorship Platform) Tj
+T*
+(- Designed and built a backend-driven mentorship scheduling platform using TypeScript and) Tj
+T*
+(Node.js, implementing) Tj
+T*
+(  JWT-based authentication and Redis-backed asynchronous job queues for session scheduling and) Tj
+T*
+(notifications; deployed) Tj
+T*
+(  containerized services on AWS, supporting 600+ mentor–mentee sessions while reducing manual) Tj
+T*
+(coordination overhead.) Tj
+ET
+endstream
+endobj
+xref
+0 6
+0000000000 65535 f 
+0000000009 00000 n 
+0000000058 00000 n 
+0000000115 00000 n 
+0000000241 00000 n 
+0000000311 00000 n 
+trailer
+<< /Size 6 /Root 1 0 R >>
+startxref
+5986
+%%EOF
